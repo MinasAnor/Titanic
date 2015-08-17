@@ -11,6 +11,8 @@ train <- read.csv("C:/Programming/R/R_Projects/Kaggle/Titanic/RandomForest/clean
 #                        data=train[!is.na(train$Age),], method="anova")
 # train$Age[is.na(train$Age)] <- predict(predicted_age, train[is.na(train$Age),])
 
+# Test
+
 trainOutput <- "C:/Programming/R/R_Projects/Kaggle/Titanic/Randomforest/manip_train.csv"
 write.csv(train, file=trainOutput, row.names=FALSE)
 
